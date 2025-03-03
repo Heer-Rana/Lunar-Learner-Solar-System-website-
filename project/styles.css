@@ -65,6 +65,15 @@ body::before {
     color: rgba(255, 255, 255, 0.9);
     transition: all 0.3s ease;
 }
+<<<<<<< HEAD
+=======
+
+.nav-link.active {
+    color: var(--primary-color); /* Change color to primary color */
+    font-weight: bold; /* Make it bold */
+    text-decoration: underline; /* Optional: underline the active link */
+}
+>>>>>>> 10f55b1778351c0bedc31191c6372f06282512d9
 
 .nav-link.active {
     color: var(--primary-color); /* Change color to primary color */
