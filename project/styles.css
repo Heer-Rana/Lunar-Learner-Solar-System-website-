@@ -61,6 +61,16 @@ body::before {
     color: var(--primary-color);
     transform: translateY(-2px);
 }
+.nav-link {
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
+.nav-link.active {
+    color: var(--primary-color); /* Change color to primary color */
+    font-weight: bold; /* Make it bold */
+    text-decoration: underline; /* Optional: underline the active link */
+}
 
 /* Hero Section Enhancements */
 .hero {
